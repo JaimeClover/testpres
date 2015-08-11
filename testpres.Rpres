@@ -1,0 +1,40 @@
+R Presentation Test Project
+========================================================
+author: Brett Pilcher
+date: `r date()`
+transition: concave
+
+First Slide
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r echo = FALSE}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Slide With 2 Columns
+====================
+
+column 1
+$$x^2$$
+
+***
+
+column 2
+$$y^2$$
